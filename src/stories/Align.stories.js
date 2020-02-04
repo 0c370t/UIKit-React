@@ -9,13 +9,13 @@ export default {
 // TODO: Rewrite this with cards
 export const default_behavior = () => (
     <Story title={"UIKit Alignment"}>
-        {withAlign(<Alert>
-            <h3>I'm alerting you on the left</h3>
-        </Alert>, "left")}
+        {withAlign(
+            <h3>I'm on the left</h3>
+            , "left")}
 
-        {withAlign(<Alert>
-            <h3>I'm alerting you on the right</h3>
-        </Alert>, "right")}
+        {withAlign(
+            <h3>I'm on the right</h3>
+            , "right")}
     </Story>
 );
 
