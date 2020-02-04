@@ -1,0 +1,26 @@
+$primary-color: #B7A2FF;
+$primary-color-dark: darken($primary-color, 10%);
+$secondary-color: #FFC694;
+$secondary-color-dark: darken($secondary-color, 10%);
+$tertiary-color: #6ECC73;
+$tertiary-color-dark: darken($tertiary-color, 10%);
+
+$text-dark: #0d0d0d;
+$text-light: #D0D0D0;
+/* Globals */
+/* Text Color */
+$global-color: $text-dark;
+$global-inverse-color: $text-light;
+/* Backgrounds */
+$global-background: $text-light;
+$global-primary-background: $primary-color;
+$global-secondary-background: $secondary-color;
+/* Navbar */
+$navbar-background: #4D5159;
+$navbar-item-color: #0D0D0D;
+$navbar-nav-item-hover-color: #C1D4D9;
+
+
+@import "./lib/uikit/variables-theme.scss";
+@import "./lib/uikit/mixins-theme.scss";
+@import "./lib/uikit/uikit-theme.scss";

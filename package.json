@@ -1,0 +1,42 @@
+{
+  "name": "uikit-react",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "start-storybook"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@storybook/react": "^5.3.10",
+    "babel-loader": "^8.0.6",
+    "babel-preset-nano-react-app": "^0.1.0",
+    "prop-types": "latest",
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.2",
+    "storybook": "^5.3.10"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ],
+      [
+        "@babel/plugin-transform-react-jsx",
+        {
+          "pragmaFrag": "React.Fragment"
+        }
+      ]
+    ]
+  }
+}
